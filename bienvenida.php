@@ -47,12 +47,12 @@ DONDE ESTARÁ EL HTML DE BIENVENIDA. -->
       text-align: center;
       background-color: #ffffff;
       border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: #892929;
     }
     
     h1 {
       font-size: 48px;
-      color: #333333;
+      color: #892929;
       margin-bottom: 20px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
@@ -71,7 +71,7 @@ DONDE ESTARÁ EL HTML DE BIENVENIDA. -->
       background-color: #337ab7;
       border-radius: 4px;
       text-decoration: none;
-      transition: background-color 0.3s;
+      transition: background-color 0.3;
     }
     
     .btn:hover {
@@ -86,8 +86,11 @@ DONDE ESTARÁ EL HTML DE BIENVENIDA. -->
     <p>Desarrollado por: Francisco Quiñones Maldonado</p>
     <p>Programa: Análisis y Desarrollo de Software</p>
     <p>Ficha: 2521979</p>
-    <p>Instructor: Jhon de Jesús Chaverra HHH</p>
+    <p>Instructor: Jhon de Jesús Chaverra</p>
     <a href= "php/cerrar_sesion.php">Cerrar Sesión</a>
+    <h3>Nota:Cerrar sesión implica tener que volver a abrirla 
+      <br>
+        para continuar en la página.</h3>
     <br>
     <br>
     <br>
